@@ -1,0 +1,16 @@
+{
+  "employees": [
+    {
+      "name": "Gustavo de Azevedo Soares",
+      "email": "g81marketing@gmail.com",
+      "phone": "11970227461",
+      "id": 1
+    },
+    {
+      "name": "Gustavo de Azevedo Soares",
+      "email": "g81marketing@gmail.com",
+      "phone": "11970227461",
+      "id": 2
+    }
+  ]
+}

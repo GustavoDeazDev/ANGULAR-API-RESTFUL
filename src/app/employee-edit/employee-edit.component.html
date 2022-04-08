@@ -1,0 +1,20 @@
+<div class = "container custom-container">
+    <div class = "col-md-12">
+        <h3 class = "mb-3 text-center">Atualizar Registro</h3>
+
+        <div class = "form-group">
+            <input type = "text" [(ngModel)] = "dadosRegistro.name" class = "form-control" placeholder = "Nome" />
+        </div>
+
+        <div class = "form-group">
+            <input type = "text" [(ngModel)] = "dadosRegistro.email" class = "form-control" placeholder = "Email" />
+        </div>
+
+        <div class = "form-group">
+            <input type = "text" [(ngModel)] = "dadosRegistro.phone" class = "form-control" placeholder = "Telefone" />
+        </div>
+
+        <button class = "btn btn-success btn-lg btn-block" (click) = "atualizarRegistro()">Atualizar registro</button>
+    </div>
+</div>
+
